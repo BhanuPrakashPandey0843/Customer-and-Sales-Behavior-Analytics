@@ -1,3 +1,4 @@
+---
 
 ```markdown
 # Uncovering Trends in E-Commerce  
@@ -93,7 +94,7 @@ net start mysql
 
 # OR login manually
 mysql -u root -p
-# Password: Bhanu0843@
+# Password: Youre DB password
 ```
 
 ### 3. Create MySQL Database
@@ -109,7 +110,7 @@ Update database config in both notebooks:
 db = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Your DB passowrd',
+    password='Youre DB password',
     database='ecommerce'
 )
 ```
@@ -142,16 +143,9 @@ Summary presented in **`Uncovering Trends in E-Commerce.pdf`**
 | `products.csv`   | Product catalog and categories        |
 | `sellers.csv`    | Seller info and locations             |
 
-> Dataset source: Refer to `Dataset/Dataset.txt`
+> Dataset source: Refer to `[Dataset/Dataset.txt](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv)`
 
 ---
 
-## 📈 Future Enhancements
 
-- Integrate interactive dashboard using **Streamlit** or **Flask**
-- Add demand forecasting using **Prophet** or **ARIMA**
-- Build executive dashboards in **Power BI** or **Looker Studio**
-- Host MySQL backend on **AWS/GCP** for scalability
-
----
-
+```
