@@ -1,6 +1,4 @@
----
 
-```markdown
 # Uncovering Trends in E-Commerce  
 ### A Data-Driven Approach to Analyzing Online Retail Behavior and Performance
 
